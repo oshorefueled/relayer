@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/99designs/keyring v1.2.1
-	github.com/ComposableFi/go-substrate-rpc-client/v4 v4.0.1-0.20220820010439-71c9d526f2f5
+	github.com/ComposableFi/go-substrate-rpc-client/v4 v4.0.1-0.20220819133021-62ed9987ea7c
 	github.com/avast/retry-go/v4 v4.1.0
 	github.com/cosmos/cosmos-sdk v0.46.1
 	github.com/cosmos/ibc-go/v5 v5.0.0
@@ -18,7 +18,7 @@ require (
 	github.com/prometheus/client_golang v1.12.2
 	github.com/spf13/cobra v1.5.0
 	github.com/spf13/viper v1.12.0
-	github.com/strangelove-ventures/lens v0.5.2-0.20220822201013-1e7ffd450f20
+	github.com/strangelove-ventures/lens v0.5.2-0.20220810214843-6af97ce869d8
 	github.com/stretchr/testify v1.8.0
 	github.com/tendermint/tendermint v0.34.21
 	go.uber.org/multierr v1.8.0
@@ -38,7 +38,7 @@ require (
 	filippo.io/edwards25519 v1.0.0-rc.1 // indirect
 	github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4 // indirect
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
-	github.com/ChainSafe/go-schnorrkel v1.0.0 // indirect
+	github.com/ChainSafe/go-schnorrkel v0.0.0-20200405005733-88cbf1b4c40d // indirect
 	github.com/ComposableFi/go-subkey/v2 v2.0.0-tm03420 // indirect
 	github.com/Microsoft/go-winio v0.5.2 // indirect
 	github.com/Nvveen/Gotty v0.0.0-20120604004816-cd527374f1e5 // indirect
@@ -188,5 +188,3 @@ require (
 )
 
 replace github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
-
-replace github.com/ChainSafe/go-schnorrkel v1.0.0 => github.com/ChainSafe/go-schnorrkel v0.0.0-20200405005733-88cbf1b4c40d
